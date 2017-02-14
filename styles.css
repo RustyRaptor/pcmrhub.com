@@ -27,7 +27,7 @@ a:hover {
 	text-decoration: underline;
 }
 #container  {
-	width: 970px;
+	width: 851px;
 	text-align: left;
 	background-repeat: repeat-y;
 	background-position: top;
@@ -36,8 +36,8 @@ a:hover {
 	margin-right: auto;
 	margin-bottom: 10px;
 	margin-left: auto;
-	border-right-width: 29px;
-	border-left-width: 19px;
+	border-right-width: 0px;
+	border-left-width: 0px;
 	border-top-style: none;
 	border-right-style: none;
 	border-left-style: none;
