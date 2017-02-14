@@ -1,198 +1,221 @@
 @charset "utf-8";
+
 /* CSS Document */
 
-
 body {
-	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
-	padding: 0;
-	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
-	color: #000000;
-	background-color: #000;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 100%;
-	line-height: 110%;
+    margin: 0;
+    /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+    padding: 0;
+    text-align: center;
+    /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+    color: #000000;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 110%;
 }
 
 a:link {
-	color: #305992;
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-}
-a:visited {
-	color: #666;
-	text-decoration: none;
-}
-a:hover {
-	color: #E3A679;
-	text-decoration: underline;
-}
-#container  {
-	width: 851px;
-	text-align: left;
-	background-repeat: repeat-y;
-	background-position: top;
-	padding: 0px;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 10px;
-	margin-left: auto;
-	border-right-width: 0px;
-	border-left-width: 0px;
-	border-top-style: none;
-	border-right-style: none;
-	border-left-style: none;
-	border-top-color: #000;
-	border-right-color: #000;
-	border-bottom-color: #000;
-	border-left-color: #000;
-	border-bottom-style: none;
-	background-color: #F6F9FF;
-	color: #242542;
-}
-#container a img {
-	margin-bottom: 10px;
-}
-#DemoContainer {
-	width: 970px;
-	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
-	border: 1px solid #000000;
-	text-align: left; /* this overrides the text-align: center on the body element. */
-	background-image: url(images/Gallery-Page2.jpg);
-	background-repeat: no-repeat;
+    color: #305992;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#mainContent  {
-	padding-top: 0;
-	padding-right: 35px;
-	padding-bottom: 0;
-	padding-left: 35px;
+a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E3A679;
+    text-decoration: underline;
+}
+
+#container {
+    width: 851px;
+    text-align: left;
+    background-repeat: repeat-y;
+    background-position: top;
+    padding: 0px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-color: #000;
+    border-right-color: #000;
+    border-bottom-color: #000;
+    border-left-color: #000;
+    border-bottom-style: none;
+    background-color: #F6F9FF;
+    color: #242542;
+}
+
+#container a img {
+    margin-bottom: 10px;
+}
+
+#DemoContainer {
+    width: 970px;
+    margin: 0 auto;
+    /* the auto margins (in conjunction with a width) center the page */
+    border: 1px solid #000000;
+    text-align: left;
+    /* this overrides the text-align: center on the body element. */
+    background-image: url(images/Gallery-Page2.jpg);
+    background-repeat: no-repeat;
+}
+
+#mainContent {
+    padding-top: 0;
+    padding-right: 35px;
+    padding-bottom: 0;
+    padding-left: 35px;
 }
 
 #MainRight {
-	width: 500px;
-	margin-left: 410px;
+    width: 500px;
+    margin-left: 410px;
 }
+
 #MainLeft {
-	width: 300px;
-	float: left;
+    width: 300px;
+    float: left;
 }
 
-
-
-
-
-#header  {
-	margin-bottom: 8px;
-
+#header {
+    margin-bottom: 8px;
 }
+
 #footer {
-	width: 970px; /* the auto margins (in conjunction with a width) center the page */
-	border: 1px none #000000;
-	text-align: center;
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-color: #000;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-left: auto;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-color: #7D7C7B;
-	border-bottom-color: #7D7C7B;
-	color: #7D7C7B;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 90%;
+    width: 970px;
+    /* the auto margins (in conjunction with a width) center the page */
+    border: 1px none #000000;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #000;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #7D7C7B;
+    border-bottom-color: #7D7C7B;
+    color: #7D7C7B;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 90%;
 }
+
 #footer2 {
-	width: 970px; /* the auto margins (in conjunction with a width) center the page */
-	border: 1px none #000000;
-	text-align: center;
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-color: #D5E5FF;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-left: auto;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-color: #7D7C7B;
-	border-bottom-color: #7D7C7B;
+    width: 970px;
+    /* the auto margins (in conjunction with a width) center the page */
+    border: 1px none #000000;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #D5E5FF;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #7D7C7B;
+    border-bottom-color: #7D7C7B;
 }
+
 .navbar {
-	text-align: center;
-	font-size: 85%;
-	padding-top: 8px;
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	font-weight: normal;
-	height: 25px;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-color: #7D7C7B;
-	border-bottom-color: #7D7C7B;
-	width: 970px;
-	background-color: #000;
+    text-align: center;
+    font-size: 85%;
+    padding-top: 8px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    font-weight: normal;
+    height: 25px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #7D7C7B;
+    border-bottom-color: #7D7C7B;
+    width: 970px;
+    background-color: #000;
 }
+
 .navbar ul {
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
+
 .navbar li {
-	list-style-type: none;
-	display: inline;
-	margin-right: 40px;
-	padding: 0px;
-	margin-top: 0px;
+    list-style-type: none;
+    display: inline;
+    margin-right: 40px;
+    padding: 0px;
+    margin-top: 0px;
 }
+
 .navbar a {
-	text-decoration: none;
-	color: #C1C1C1;
-	font-weight: bold;
+    text-decoration: none;
+    color: #C1C1C1;
+    font-weight: bold;
 }
+
 .navbar a:visited {
-	text-decoration: none;
-	color: #82A0DF;
+    text-decoration: none;
+    color: #82A0DF;
 }
+
+
 /* CSS Document */
 
 .navbar a:hover {
-	text-decoration: none;
-	color: #C29B32;
+    text-decoration: none;
+    color: #C29B32;
 }
 
 .xsmtxt {
-	font-size: xx-small;
+    font-size: xx-small;
 }
-.float-right { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
-	float: right;
-	margin-left: 10px;
+
+.float-right {
+    /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+    float: right;
+    margin-left: 10px;
 }
-.float-left { /* this class can be used to float an element left in your page */
-	float: left;
-	margin-right: 10px;
+
+.float-left {
+    /* this class can be used to float an element left in your page */
+    float: left;
+    margin-right: 10px;
 }
+
 h1 {
-	color: #001B57;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-weight: bold;
-	font-size: large;
+    color: #001B57;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: large;
 }
+
 h2 {
-	font-size: medium;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #001B57;
+    font-size: medium;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #001B57;
 }
+
 .clear {
-	clear: both;
+    clear: both;
 }
