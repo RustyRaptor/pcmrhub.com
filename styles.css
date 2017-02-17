@@ -77,6 +77,26 @@ a:hover {
     padding-left: 35px;
 }
 
+#rules {
+    padding-top: 0;
+    padding-right: 0.5%;
+    padding-bottom: 0;
+    padding-left: 0.5%;
+    text-align: left;
+    line-height: 1.1;
+    word-spacing: normal;
+    font-family: serif;
+    background-color: #00344d;
+    color: #929292;
+    font-size: 100%
+}
+
+#rulesHeading {
+    font-size: 200%;
+    text-align: center;
+    color: #929292;
+}
+
 #MainRight {
     width: 500px;
     margin-left: 410px;
