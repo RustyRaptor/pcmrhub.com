@@ -33,10 +33,11 @@ a:hover {
 
 #container {
     width: 851px;
-    text-align: left;
+    text-align: center;
+    ;
     background-repeat: repeat-y;
     background-position: top;
-    padding: 0px;
+    padding: 0%;
     margin-top: 0;
     margin-right: auto;
     margin-bottom: 10px;
@@ -55,6 +56,13 @@ a:hover {
     color: #242542;
 }
 
+#Heading2 {
+    font-size: 200%;
+    text-align: center;
+    color: #2c4242;
+    line-height: normal;
+}
+
 #container a img {
     margin-bottom: 10px;
 }
@@ -68,6 +76,11 @@ a:hover {
     /* this overrides the text-align: center on the body element. */
     background-image: url(images/Gallery-Page2.jpg);
     background-repeat: no-repeat;
+}
+
+#meme {
+    align-content: center;
+    text-align: center;
 }
 
 #mainContent {
