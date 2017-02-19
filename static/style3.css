@@ -31,6 +31,7 @@ header p {
     display: flex;
     align-items: center;
     background-image: url(https://media.giphy.com/media/EqkqvykCRzQUE/giphy.gif);
+    background-color: #002b36;
     background-size: cover;
     color: #ffffff;
     height: 500px;
