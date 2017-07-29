@@ -1,0 +1,77 @@
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHRwYJKoZIhvcNAQcEoIIHODCCBzQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYArlRra+IRdBaJgc8dvO6qdZcIeuSDCfJHYCzaWUwPV0Vfyc7aiDPE0XtPQwRggQRDBWH9CX4MRMDBHLGInVpgicV37zNrnOTKrf4IJYv9KNMZMCEyb+HNagOjisozV4OG+S/+c98z3b+uKm5gigvzp1jE+CX/1aA3HuwcB4uToSzELMAkGBSsOAwIaBQAwgcQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIlLol7QDInIyAgaA4SAMBHMbw/6zoWMKqh4dpz8AqqPRqRxXQSdPc2rJXMpJqdfYdQsucOAI7mYCF6V+6Z2y8l+A2O/s9yC5vXGSHJYRlOogDmSg88w+XWbHh0ryqLdEecGVEy73zFFfPoA47uYTUNtqLCe/ZyLqKP+r9SWLXl64Pf0HgMrrM6QOcDp5RHeSGixQZNtEP4N1TH+0FjQKdUEYKFHdIo5Tj9mnNoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTcwNzI5MTYzNDMwWjAjBgkqhkiG9w0BCQQxFgQUBopAwBzhWzUJcUPauwPAXPdwobYwDQYJKoZIhvcNAQEBBQAEgYCFVFhVESQhqm/DZir7UGmNIDiyDXyt2UG/HZEzcMslRXfmgRVOF97aCAziSWYg+aGZQheTPQtrcz8BVapF6AyjpioRU/vKrJRzTOdWKkC8G3uyIgdp0Iwxafcy/+I29QLrbCygU3TEHCiY7lTiNBO3Sxl2lT2JlFzbSGEPM0qqnQ==-----END PKCS7-----">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>         
+                
+                <table style="display: inline-block; float: left; padding: 2%;" width:="" 694px;="" height:="" 94px;="" border="1">
+                            <tbody>
+                                <tr style="background-color: #969695;">
+                                    <td>
+                                        <br> </td>
+                                    <td>Ticket based ads
+                                        <br> </td>
+                                    <td>
+                                        <br> </td>
+                                </tr>
+                                <tr>
+                                    <td>Price
+                                        <br> </td>
+                                    <td>Tickets
+                                        <br> </td>
+                                    <td>Valid for</td>
+                                </tr>
+                                <tr>
+                                    <td>4$
+                                        <br> </td>
+                                    <td>1
+                                        <br> </td>
+                                    <td>1 week</td>
+                                </tr>
+                                <tr>
+                                    <td>22$</td>
+                                    <td>7</td>
+                                    <td>1 month</td>
+                                </tr>
+                                <tr>
+                                    <td>49$</td>
+                                    <td>21</td>
+                                    <td>100 days</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table style="display: inline-block; float: left; padding: 2%;" cellpadding="0%%%" cellspacing="0%%%">
+                            <tbody>
+                                <tr style="background-color: #969695;">
+                                    <th>
+                                        <h5><br>
+                      </h5> </th>
+                                    <td style="text-align: center;">
+                                        <h5>Time Based Ads</h5> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Price</h5> </td>
+                                    <td>
+                                        <h5>Advertising Plan<br>
+                      </h5> </td>
+                                </tr>
+                                <tr>
+                                    <td>4$</td>
+                                    <td>1 ad post</td>
+                                </tr>
+                                <tr>
+                                    <td>10.00$</td>
+                                    <td>7 days of advertising. Can post 1 ad per day</td>
+                                </tr>
+                                <tr>
+                                    <td>15.00$</td>
+                                    <td>21 days of advertising. Can post 1 ad per day</td>
+                                </tr>
+                                <tr>
+                                    <td>22.00$</td>
+                                    <td>30 days of advertising. Can post 1 ad every 12 hours.</td>
+                                </tr>
+                            </tbody>
+                        </table>
